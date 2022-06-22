@@ -1,0 +1,624 @@
+body {
+    background-color: #F8F1F1;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #EDEDED;
+    text-align: center;
+  }
+  p {
+    font-size: 1.5em;
+    width: 90%;
+  }
+  .navbar {
+    padding: 16px 0 16px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: #222831;
+    top: 0;
+  }
+  .logo {
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+  }
+  .tytle {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    line-height: 1.6em;
+    width: 100%;
+    letter-spacing: .07em;
+    color: #EDEDED;
+  }
+  .tytle h1 {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .tytle h3 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.5em;
+  }
+  .collapseButton, .collapsibleMenu {
+    display: none;
+  }
+  .navbarr {
+    background-color: #222831;
+    height: 300px;
+    width: 168px;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    position: fixed;
+    left: 20px;
+    top: 260px;
+    border: 2px;
+    border-style: solid;
+  }
+  .navbar-box {
+    color: #EDEDED;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    margin: 10px auto 16px auto;
+    text-align: center;
+  }
+  a:hover {
+    color: #787A91;
+    text-decoration: underline;
+    text-decoration-thickness: 1.6px;
+  }
+  #middle-container {
+    background-color: #F8F1F1;
+    text-align: left;
+    color: #222831;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    padding-top: 260px;
+    margin-bottom: 50px;
+  }
+  .intro {
+    margin-right: 30px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .btn-dark {
+    background-color: #222831;
+  }
+  .btn: hover {
+    opacity: 0.1;
+  }
+  .btn {
+    margin: 36px auto 18px auto;
+    position: relative;
+    border-radius: 14px;
+  }
+  .downloadbtn {
+    width: 100%;
+  }
+  .downloadbtn a {
+    width: 100%;
+  }
+  .my-picture {
+    border-radius: 10px;
+    width: 84%;
+  }
+  .visible{
+    text-align: center;
+  }
+  .icon {
+    width: 40px;
+    margin: 15px 8px 8px;
+  }
+  .icon:hover {
+    opacity: 0.84;
+  }
+  #skills-container {
+    background-color: #222831;
+    color: #EDEDED;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1em;
+    padding: 145px 0 150px 0;
+    /* margin-bottom: 50px; */
+  }
+  .container-fluid{
+    width: 100%;
+    overflow: hidden;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .container h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+    color: #EDEDED;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+  }
+  .skills-container .container {
+    padding: 0 15px 0 15px;
+    margin: 0 auto 0 auto;
+    width: 100%;
+  }
+  .skill-proficiency{
+    height: 20px;
+    margin: 16px 8px;
+    background-color: #BBE1FA;
+    border-radius: 10px;
+  }
+  .ninety-percent{
+    width: 90%;
+  }
+  .eighty-five-percent{
+    width: 85%;
+  }
+  .seventy-eight-percent{
+    width: 78%;
+  }
+  .eighty-percent{
+    width: 80%;
+  }
+  #experience-container{
+    padding: 180px 0 100px 0;
+    background-color: #D3E0EA;
+  }
+  .exp-header{
+    font-weight: bolder;
+    font-size: 0.65em;
+    letter-spacing: 0.5px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .exp-content{
+    font-weight: bolder;
+    font-size: 1.3em;
+    letter-spacing: 0.5px;
+    padding-left: 80px;
+    text-align: justify;
+  }
+  .exp-tag{
+    font-weight: bold;
+  }
+  .exp-row{
+    margin-bottom: 40px;
+  }
+  .bullet-1, .bullet-2, .bullet-3, .bullet-4, .bullet-5, .bullet-6, .bullet-7, .bullet-8{
+    width:100%;
+    margin-bottom: 20px;
+  }
+  #education-container{
+    padding: 180px 0 100px 0;
+  }
+  .ed-header{
+    color: #222831;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: light;
+    letter-spacing: 16px;
+    margin-bottom: 65px;
+  }
+  .dtu-image, .aps-image, .vdjs-image{
+    width: 100%;
+  }
+  .dtu-container, .aps-container, .vdjs-container{
+    padding-left: 80px;
+    margin-bottom: 40px;
+  }
+  .ed-h1-text{
+    color: #222831;
+    font-family: 'Lora', serif;
+  }
+  .ed-h2-text{
+    color: #222831;
+    font-family: 'EB Garamond', serif;
+  }
+  .dtu-container h4{
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  .aps-container h4{
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  .twelve, .ten{
+    font-weight: normal;
+  }
+  .vdjs-container h4{
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  .ed-h5-text{
+    color: #222831;
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 1.3px;
+  }
+  .ed-borderr{
+    margin: 0 auto 39px auto;
+    /* align: center; */
+    width: 40%;
+    /* border-style: dotted; */
+  }
+  #contact-container{
+    padding: 180px 20px 100px;
+  }
+  .contact-header h2{
+    font-size: 2.8em;
+    color: #222831;
+    text-align: center;
+    /* font-weight: lighter; */
+    /* font-family: 'Lobster Two', cursive; */
+    margin-bottom: 100px;
+  }
+  .contact-card-grid{
+    padding: 5px;
+    /* margin-top: 80px;
+    display: inline-block; */
+  }
+  .contact-card{
+    width: 100%;
+    background-color: #EDEDED;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 100px;
+  }
+  .cardtext{
+      text-align: center;
+  }
+  .card-img{
+    width: 100%;
+    position: absolute;
+  }
+  .image-holder{
+    width: 16%;
+    padding: 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: -15%;
+    left: 42%;
+  }
+  .round{
+    border-radius: 100%;
+  }
+  .c1{
+    border-radius: 28%;
+  }
+  .c2{
+    border-radius: 10%;
+  }
+  .button-div{
+    width: 100%;
+    text-align: center;
+  }
+  @media (min-width: 1399.98px) {
+    .exp-header h2{
+      font-weight: bolder;
+      font-size: 6em;
+    }
+    .intro h2{
+      font-weight: bolder;
+      font-size: 2.6em;
+    }
+    .intro h4{
+      font-weight: bold;
+      font-size: 1.6em;
+    }
+    .intro p{
+      font-size: 1.3em;
+      text-align: left;
+      width: 100%;
+      letter-spacing: 0.5px;
+    }
+    #middle-container{
+      padding-left: 240px;
+    }
+    .sk-container{
+      padding-left: 170px;
+    }
+    .ex-container{
+      padding-left: 280px;
+    }
+    .ed-container{
+      padding-left: 260px;
+    }
+    .co-container{
+      padding-left: 200px;
+      padding-right: 10px;
+    }
+  }
+  
+  /* xxl->extra large devices->desktops having less than 1400px */
+  @media (min-width: 1199.98px) and (max-width: 1399.98px){
+    #middle-container{
+      padding-left: 240px;
+    }
+    .intro h2{
+      font-weight: bolder;
+      font-size: 2.5em;
+    }
+    .intro h4{
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+    .intro p{
+      font-size: 1.2em;
+      text-align: left;
+      width: 100%;
+      letter-spacing: 0.5px;
+    }
+    .sk-container{
+      padding-left: 170px;
+    }
+    .container h2{
+      font-size: 2.8em;
+      letter-spacing: 8px;
+    }
+    .ex-container{
+      padding-left: 280px;
+    }
+    .exp-header h2{
+      font-weight: bolder;
+      font-size: 5em;
+      padding-left: 120px;
+    }
+    .ed-container{
+      padding-left: 260px;
+    }
+    .co-container{
+      padding-left: 200px;
+      padding-right: 10px;
+    }
+  }
+  
+  /* xl->large devices->desktops having less than 1200px */
+  @media (min-width: 991.98px) and (max-width: 1199.98px){
+    #middle-container{
+      padding-left: 240px;
+    }
+    .intro h2{
+      font-weight: bolder;
+      font-size: 2.5em;
+    }
+    .intro h4{
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+    .intro p{
+      font-size: 1.2em;
+      text-align: left;
+      width: 100%;
+      letter-spacing: 0.5px;
+    }
+    .sk-container{
+      padding-left: 170px;
+    }
+    .container h2{
+      font-size: 2.8em;
+      letter-spacing: 2px;
+    }
+    .ex-container{
+      padding-left: 240px;
+    }
+    .exp-header h2{
+      font-weight: bolder;
+      font-size: 4.5em;
+      padding-left: 120px;
+    }
+    .ed-container{
+      padding-left: 220px;
+    }
+    .dtu-container, .aps-container, .vdjs-container{
+      padding-left: 40px;
+    }
+    .co-container{
+      padding-left: 200px;
+      padding-right: 10px;
+    }
+  }
+  
+  /* lg->medium devices->tablets */
+  @media (min-width: 767.98px) and (max-width: 991.98px) {
+    #middle-container{
+      padding-left: 220px;
+    }
+    .intro h2{
+      font-weight: bolder;
+      font-size: 2.5em;
+    }
+    .intro h4{
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+    .intro p{
+      font-size: 1.2em;
+      text-align: left;
+      width: 100%;
+      letter-spacing: 0.5px;
+    }
+    .navbarr{
+      width: 158px;
+    }
+    .visible .icon{
+      width: 25px;
+      margin: 15px 5px 0;
+    }
+    .sk-container{
+      padding-left: 140px;
+    }
+    .container h2{
+      font-size: 2.8em;
+      letter-spacing: 2px;
+    }
+    #experience-container{
+      padding: 160px 0 100px 0;
+    }
+    .ex-container{
+      padding-left: 220px;
+    }
+    .exp-header h2{
+      font-weight: bold;
+      font-size: 3.6em;
+      padding-left: 150px;
+    }
+    .exp-content{
+      font-size: 1.18rem;
+      padding-left: 40px;
+    }
+    .ed-container{
+      padding-left: 220px;
+    }
+    .dtu-container, .aps-container, .vdjs-container{
+      padding-left: 25px;
+    }
+    .co-container{
+      padding-left: 200px;
+      padding-right: 10px;
+    }
+  }
+  
+  /* md->small devices->landscape phones */
+  @media (max-width: 767.98px) {
+    .logo {
+      width: 80px;
+      left: 17px;
+      top: 24px;
+      bottom: 10px;
+    }
+    .tytle{
+      width: 80%;
+    }
+    .tytle h1{
+      font-size: 1.75em;
+    }
+    .tytle h3{
+      font-size: 1.25em;
+      padding-left: 20px;
+    }
+    .collapseButton, .collapsibleMenu{
+      display: inline-block;
+    }
+    .navbarr{
+      display: none;
+    }
+    #middle-container{
+      padding: 240px 40px 0;
+    }
+    .intro h2{
+      font-weight: bolder;
+      font-size: 2.45em;
+    }
+    .intro h4{
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+    .intro p{
+      font-size: 1.2em;
+      text-align: left;
+      width: 100%;
+      letter-spacing: 0.5px;
+    }
+    .visible{
+      text-align: center;
+    }
+    .my-picture{
+      margin: 50px 0 30px 0;
+      width: 60%;
+    }
+    .sk-container{
+      padding: 80px 24px;
+    }
+    .container h2{
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+    .exp-header h2{
+      font-weight: bold;
+      font-size: 4.5em;
+      padding: 0 30px;
+    }
+    .exp-header{
+        margin: 0;
+    }
+    .ex-container{
+      padding: 80px 40px 40px 40px;
+    }
+    .exp-content{
+      font-size: 1.15rem;
+      padding-left: 20px;
+    }
+    .ed-container{
+      padding: 80px 60px 40px 75px;
+    }
+    .ed-header{
+      font-size: 2.5em;
+      letter-spacing: 13px;
+      margin: 0;
+    }
+    .ed-img{
+      width: 40%;
+      text-align: center;
+      margin: auto;
+    }
+    .dtu-container, .aps-container, .vdjs-container{
+      margin-top: 25px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    #contact-container{
+      padding: 140px 24px;
+    }
+    .co-container{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  /* sm->extra small devices-> portrait phones*/
+  @media (max-width: 575.98px) {
+    .logo{
+      width: 65px;
+      left: 15px;
+      top: 30px;
+      bottom: 15px;
+    }
+    .tytle h1{
+      padding-left: 50px;
+    }
+    .tytle h3{
+      padding-left: 68px;
+      font-size: 1.10em;
+    }
+    .navbarr{
+      display: none;
+    }
+    .visible .my-picture{
+      width: 80%;
+    }
+    .btn{
+      margin-top: 20px;
+    }
+    .exp-header h2{
+      font-weight: bold;
+      font-size: 4.3em;
+    }
+    .bullet-1, .bullet-2, .bullet-3, .bullet-4, .bullet-5, .bullet-6, .bullet-7, .bullet-8{
+      width:30%;
+    }
+    .exp-tag{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .ed-container{
+      padding: 90px 28px 40px 28px;
+    }
+    .contact-card{
+      padding-top: 80px;
+    }
+  }
